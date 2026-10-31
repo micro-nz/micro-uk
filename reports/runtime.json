@@ -1,0 +1,121 @@
+{
+ "when": "2026-10-31T22:34:52.934Z",
+ "where": "http://localhost:8123/micro-uk (Chrome/152.0.7977.167)",
+ "app": "d459548db8",
+ "tests": [
+  {
+   "id": "mega-menu",
+   "ok": true,
+   "detail": "7 tabs, panel switch on focus, Escape closes: true",
+   "ms": 58
+  },
+  {
+   "id": "predictive-search",
+   "ok": true,
+   "detail": "6 product suggestions for \"sprite\"; See all 94 results",
+   "ms": 642
+  },
+  {
+   "id": "mobile-menu",
+   "ok": true,
+   "detail": "menu button shown at 375px, opened, drilled into \"Scooters\", back works",
+   "ms": 265
+  },
+  {
+   "id": "carousel-tabs",
+   "ok": true,
+   "detail": "switched to \"Accessories\"",
+   "ms": 258
+  },
+  {
+   "id": "filters",
+   "ok": true,
+   "detail": "24 → 4 with \"3 wheels\" (all 3-wheel), URL ?w=3, cleared back to 24",
+   "ms": 121
+  },
+  {
+   "id": "sort",
+   "ok": true,
+   "detail": "price low→high: 199.95 … 329.95",
+   "ms": 98
+  },
+  {
+   "id": "load-more",
+   "ok": true,
+   "detail": "24 → 48 cards; \"Showing 48 of 52\"",
+   "ms": 196
+  },
+  {
+   "id": "compare",
+   "ok": true,
+   "detail": "3 columns from URL, picking a shown product swaps columns, 14 rows (9 differ, 3 same, 7 \"Not listed\" cells), URL synced",
+   "ms": 80
+  },
+  {
+   "id": "lightbox",
+   "ok": true,
+   "detail": "opens on click, next image works",
+   "ms": 73
+  },
+  {
+   "id": "rating",
+   "ok": true,
+   "detail": "\"4.9 400 reviews\"",
+   "ms": 663
+  },
+  {
+   "id": "reviews",
+   "ok": true,
+   "detail": "6 recent reviews loaded from the NZ store's Okendo account",
+   "ms": 643
+  },
+  {
+   "id": "variant",
+   "ok": true,
+   "detail": "6 colours; picked \"Black\", variant and URL updated",
+   "ms": 73
+  },
+  {
+   "id": "live-price",
+   "ok": true,
+   "detail": "price and stock refreshed from the NZ Storefront API",
+   "ms": 393
+  },
+  {
+   "id": "complete-set",
+   "ok": true,
+   "detail": "3 add-ons suggested",
+   "ms": 436
+  },
+  {
+   "id": "cart",
+   "ok": true,
+   "detail": "added, quantity +1, removed; checkout goes to https://www.microscooters.co.nz/cart/c/hWNIcc1wM…",
+   "ms": 2804
+  },
+  {
+   "id": "spares-finder",
+   "ok": true,
+   "detail": "tabs switch; \"sprite\" → sprite, sprite suspension; no-match message shown",
+   "ms": 138
+  },
+  {
+   "id": "parts-filter",
+   "ok": true,
+   "detail": "deep link ?pt=wheels shows 13 of 58 parts; brakes chip switches filter",
+   "ms": 143
+  },
+  {
+   "id": "quiz",
+   "ok": true,
+   "detail": "kids / 3 wheels / light-up / home / $300 → maxi-micro-deluxe-led-kids-scooter, maxi-micro-deluxe-eco-led-kids-scooter, maxi-deluxe-foldable-led; restart resets",
+   "ms": 78
+  },
+  {
+   "id": "search-page",
+   "ok": true,
+   "detail": "83 results for \"helmet\" (showing the first 48 products)",
+   "ms": 110
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+dist/
+.cache/
+__pycache__/
+tests/.quiz.json
+.claude/
+.DS_Store
