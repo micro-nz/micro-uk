@@ -1,6 +1,6 @@
 # Remake report: micro-scooters.co.uk → micro-nz/micro-uk
 
-Generated 01 November 2026, 11:37 NZDT by `tools/audit.py` from build of 2026-11-01T11:37:25+1300.
+Generated 01 November 2026, 11:44 NZDT by `tools/audit.py` from build of 2026-11-01T11:44:45+1300.
 
 The remake rebuilds the UK site's design, structure and features as original code, filled with Micro NZ's catalogue and content (loaded from the NZ store's Storefront API). Checkout happens on microscooters.co.nz.
 
@@ -16,8 +16,8 @@ NZ data snapshot is 0.0 days old.
 | 6 | Page quality | PASS | 853 of 853 pages pass |
 | 7 | Size budgets | PASS | site.css 49 kB, app.js 59 kB, catalogue.json 314 kB, content-index.json 70 kB; largest page 363 kB (index.html) |
 | 8 | Quiz and comparison engines | PASS | 5,024 quiz answer combinations and 49 comparison tables tested; 0 failures |
-| 9 | Browser self-test | PASS | 19 behaviours tested in a real browser on 2026-10-31T22:34:52.934Z (http://localhost:8123/micro-uk (Chrome/152.0.7977.167)); 0 failed; matches the current app.js |
-| 10 | Deployed to GitHub Pages | FAIL | skipped (--no-deploy-check) |
+| 9 | Browser self-test | PASS | 19 behaviours tested in a real browser on 2026-10-31T22:44:20.769Z (https://micro-nz.github.io/micro-uk (Chrome/152.0.7977.167)); 0 failed; matches the current app.js |
+| 10 | Deployed to GitHub Pages | PASS | https://micro-nz.github.io/micro-uk/ serves the current build (app.js d459548db8, site.css 7b175008dc) |
 
 ## UK features covered
 
@@ -104,6 +104,6 @@ NZ data snapshot is 0.0 days old.
 - Spec rows the NZ listings don't state show "Not listed" rather than guessed values.
 - A prototype banner and noindex tag are added so the remake can't be mistaken for, or outrank, a live store.
 
-**9 of 10 checks pass.**
+**10 of 10 checks pass.**
 
-REMAKE INCOMPLETE — 1 check(s) failing
+REMAKE COMPLETE
