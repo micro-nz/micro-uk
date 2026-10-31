@@ -1,6 +1,6 @@
 # Remake report: micro-scooters.co.uk → micro-nz/micro-uk
 
-Generated 01 November 2026, 11:36 NZDT by `tools/audit.py` from build of 2026-11-01T11:35:31+1300.
+Generated 01 November 2026, 11:37 NZDT by `tools/audit.py` from build of 2026-11-01T11:37:25+1300.
 
 The remake rebuilds the UK site's design, structure and features as original code, filled with Micro NZ's catalogue and content (loaded from the NZ store's Storefront API). Checkout happens on microscooters.co.nz.
 
